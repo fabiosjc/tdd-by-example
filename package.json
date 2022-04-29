@@ -1,0 +1,22 @@
+{
+  "name": "tdd-by-example",
+  "version": "1.0.0",
+  "description": "My Typescript Versions from tests of Test-Driven Development by Example book",
+  "main": "index.js",
+  "dependencies": {
+    "babel-jest": "^28.0.3",
+    "jest": "^28.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tdd",
+    "tdd-by-example",
+    "test-driven-development",
+    "tdd-book"
+  ],
+  "author": "Fábio Henrique",
+  "license": "ISC"
+}
