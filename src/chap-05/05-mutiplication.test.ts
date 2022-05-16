@@ -1,4 +1,5 @@
-import { Dollar } from "./Dollar"
+import { Dollar } from "./dollar"
+import { Franc } from "./franc"
 
 it('testMultiplication', () => {
   const five = new Dollar(5)
