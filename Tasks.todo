@@ -3,5 +3,5 @@ $5 + 10 CHF = $10 se a taxa é 2:1
 ☐ Tornar “quantidade” privada
 ✔ ~Efeitos colaterais em Dollar?~
 ☐ Arredondamento de dinheiro?
-☐ equals()
+✔ ~equals()~q
 ☐ hashCode()
