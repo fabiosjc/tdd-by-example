@@ -11,6 +11,7 @@ export class Dollar {
   }
 
   equals(other: Dollar): boolean {
-    return true
+    const dollar: Dollar = other
+    return this.amount === dollar.amount
   }
 }
