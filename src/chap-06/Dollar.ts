@@ -10,8 +10,4 @@ export class Dollar extends Money {
     return new Dollar(this.amount * multiplier)
   }
 
-  equals(other: Dollar): boolean {
-    const dollar: Dollar = other
-    return this.amount === dollar.amount
-  }
 }
