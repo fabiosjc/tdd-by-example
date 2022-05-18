@@ -1,8 +1,9 @@
 export class Money {
   protected amount: number
   
-  equals(other: any): boolean {
+  equals(other: Object): boolean {
     const money: Money = other as Money
-    return this.amount === money.amount
+    return this.amount === money.amount &&
+      this.constructor.name === money.constructor.name
   }
 }
